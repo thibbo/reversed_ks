@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="advance_setting">Settings:</string>
+    <string name="advance_setting_accept">Agree</string>
+    <string name="advance_setting_auth_code">Code for authorization:</string>
+    <string name="advance_setting_failure">Failure!</string>
+    <string name="advance_setting_not_accept">Unaccept</string>
+    <string name="advance_setting_note">This function only suitable to those high level player, it is only avilable to those players who have contract. we do not response to any safety issue happens with the reason of decoding the speed limit</string>
+    <string name="advance_setting_sn">Vehicle Serial Number:</string>
+    <string name="advance_setting_success">Success!</string>
+    <string name="advance_user">Advanced user</string>
+    <string name="appwtfk">Feedback app problems</string>
+    <string name="avaible_devics">Available Device</string>
+    <string name="avespeed">Average Speed</string>
+    <string name="bbjc">Version detection</string>
+    <string name="cdkz">Color Light Control</string>
+    <string name="circlelighton">CirlcleLight On</string>
+    <string name="circlemode1">Mode1</string>
+    <string name="circlemode2">Mode2</string>
+    <string name="circlemode3">Mode3</string>
+    <string name="circleoff">CirlcleLight Off</string>
+    <string name="colormode">Light mode:</string>
+    <string name="colormode1">Wheel</string>
+    <string name="colormode2">Breath</string>
+    <string name="colormode3">Light</string>
+    <string name="colorsel">Color:</string>
+    <string name="connecting">Connecting...</string>
+    <string name="connectsuccess">Connected</string>
+    <string name="cooloff">Refrigeration Off</string>
+    <string name="coolon">Refrigeration On</string>
+    <string name="currentmile">Current Mileage</string>
+    <string name="currentsoftversion">CurrentVersion:V</string>
+    <string name="dcxx">Battery Information</string>
+    <string name="dgkz">Lighting Control</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="download">Download</string>
+    <string name="electricity">electricity</string>
+    <string name="exit">Press again to exit</string>
+    <string name="find_bt">Scan</string>
+    <string name="fwgw">Visit the Official Website</string>
+    <string name="gjsj">Firmware Upgrading</string>
+    <string name="help">Help</string>
+    <string name="help_bluetooth">Choose your own car from the pop-up menu, usually with the car model + serial number to identify their own car, you can find your selected connection through the software to interact with the car.</string>
+    <string name="help_cdlight">"1 colored rgb lampion could be switch on or off during ur riding by using coloured rgb lampion switch''
+2 the working mode of coloured rgb lampion could be switched during riding"</string>
+    <string name="help_light">"AUTO: Automatically control the ON/OFF of the lighting system through light sensor.
+OFF: Lighting OFF
+ON: Lighting ON
+normal: both floodlight and stoplight working normally
+twinkle: both floodlight and stoplight twinkle continously"</string>
+    <string name="help_notes">Tip: More higher functions please enquiry Domestic distributor and use it after get the approval from them.</string>
+    <string name="help_qxsz_content">"Player Mode: acceleration brake is hard when riding
+Riding Mode: acceleration brake is mild when riding
+Learning Mode: acceleration brake is soft when riding"</string>
+    <string name="help_spjz_content">When the pedal is not parallel with the floor, solve this problem through level calibration. Put the bicycle vertical to the floor, hold the ON button to enter into the calibration mode, when calibrating the bicycle will make 5 sounds, after calibration, the bicycle will make a long sound, which means successful calibration. Then restart the device for cycling, otherwise, please try it again.</string>
+    <string name="help_xssz_content">Start the bicycle and keep it at still state, slide the slider in the speed limit interface to set the alarm speed or Ollie mode speed, the setup regulations for 3-class alarm are: Class 3 > Class 2 > Class 1, Class 1 and Class 2 can be set at 0, which means not alarm.(tip:First level alarm: bee bee ; bee bee; bee bee ... Second level alarm: beebeebee; beebeebee; beebeebee... Third level alarm: beebeebeebeebee....)</string>
+    <string name="help_yykz_content">When the Voice Report is enabled, the device will play the voice prompt, if the Voice Report is disabled, the device will prompt with buzzer</string>
+    <string name="illegaldevice">Illegal device</string>
+    <string name="jbxx">Basic Information</string>
+    <string name="level_1_alarm">Class 1 Alarm</string>
+    <string name="level_2_alarm">Class 2 Alarm</string>
+    <string name="level_3_alarm">Class 3 Alarm</string>
+    <string name="lightflash">Flash</string>
+    <string name="lightmodeauto">Light AutoOnOff</string>
+    <string name="lightnormal">Normal</string>
+    <string name="lightoff">Light Off</string>
+    <string name="lighton">Light On</string>
+    <string name="maxspeed">Highest Speed</string>
+    <string name="menudeviceabout">About</string>
+    <string name="menudeviceinfo">Device Information</string>
+    <string name="menudeviceserver">Service</string>
+    <string name="menudevicesetting">Device Setup</string>
+    <string name="msg_mssz_failure">Mode setting failure</string>
+    <string name="msg_mssz_success">Mode setting success</string>
+    <string name="msg_not_connected">Equipment is Unconnected</string>
+    <string name="msg_spjz_failure">Level calibrate failure</string>
+    <string name="msg_spjz_success">Level calibrate success</string>
+    <string name="msg_xssz_failure">Setting for Speed Limited fail</string>
+    <string name="msg_xssz_success">Setting for Speed Limited successful</string>
+    <string name="mycar">My Unicycle</string>
+    <string name="newsoftversion">NewVersion:V</string>
+    <string name="normal_user">Normal user</string>
+    <string name="notes1">1.When using this device, please ensure reliable safety measures, for example (wear the helmet, knee pad, elbow pad and hand pad).</string>
+    <string name="notes10">10.It is not allowed to cycle over speed, please slow down when hearing the alarm for avoiding hurt to yourself and others.</string>
+    <string name="notes2">2.It is not allowed to use this device in the motor vehicle lane.</string>
+    <string name="notes3">3.Children, old people and pregnant women should not use this device.</string>
+    <string name="notes4">4.Please do not cycle after drinking wine or taking medicine.</string>
+    <string name="notes5">5.Please do not cycle this device with load.</string>
+    <string name="notes6">6.The weight of the user shall not exceed the max load listed in the User’s Manual.</string>
+    <string name="notes7">7.Control the cycling speed lower than the safety speed for ensuring the safety of you and others.</string>
+    <string name="notes8">8.It is not allowed to cycle in the rainy day, on the snowy land, iced land and sliding road for avoiding damages to the device and physical injury.</string>
+    <string name="notes9">9.Avoid cycling on the abrupt slope.</string>
+    <string name="notestitle">Product Usage Instructions</string>
+    <string name="notestitle1">Dear clients,</string>
+    <string name="notestitle2">Please carefully read the User’s Manual before use and realize the safety performance and parameters for avoiding unnecessary loss and hurt caused by improper operation.</string>
+    <string name="parameter_invalid">Invalid parameter settings</string>
+    <string name="play_mode">Player Mode</string>
+    <string name="qxsj">Cycling Mode Setup</string>
+    <string name="ride_mode">Riding Mode</string>
+    <string name="rockerspeed">Ollie Speed</string>
+    <string name="runmode">Running Mode</string>
+    <string name="runningtime">Working Duration</string>
+    <string name="selectunicycle">Select Unicycle</string>
+    <string name="set_electricity">Current:</string>
+    <string name="set_gjbb">Firmware Version:</string>
+    <string name="set_gxwz">International Website:</string>
+    <string name="set_phone">National investment Hotline:</string>
+    <string name="set_phone2">After-Sale Service Hotline:</string>
+    <string name="set_power">Power:</string>
+    <string name="set_qqtlq">Jincong Official QQ Group1:</string>
+    <string name="set_qqtlq2">Jincong Official QQ Group2:</string>
+    <string name="set_qqtlq3">Jincong Official Agent Group:</string>
+    <string name="set_qqtlq4">Jincong Maintenance Technology Group:</string>
+    <string name="set_qxms">Cycling Mode:</string>
+    <string name="set_sn">Serial Number:</string>
+    <string name="set_voltage">Voltage:</string>
+    <string name="set_wbnumber">Sina WeiBo:</string>
+    <string name="set_wbnumber1">KSwheel金丛平衡车</string>
+    <string name="set_wcnumber">WeChat public number:</string>
+    <string name="set_wcnumber1">KSwheel金丛平衡车</string>
+    <string name="set_wd">Temperature:</string>
+    <string name="set_xgn">"Version: V1.4
+1.Add RGB light on/off option and changeable cycling mode
+2.Add front and rear lights blinking mode
+3.Optimized character description
+
+Version: V1.3
+1.Optimized voltage percentage display
+2.Optimized remain mileage display
+
+Version: V1.2
+1.Modified alarm setting description
+2. Optimized on-line upgrading to avoid upgrade freeze
+3.Avoid to exit app when pressing return button
+4.Added firmware version in device info interface
+
+Version: V1.1
+Fix part operation issues
+
+Version: V1.0
+1.Add voice broadcast
+2.Add RGB light"</string>
+    <string name="set_zswz">Merchants Website:</string>
+    <string name="set_zwwz">Chinese Website:</string>
+    <string name="setting_failed">setting successfully!</string>
+    <string name="setting_success">setting successfully!</string>
+    <string name="sms">Instructions</string>
+    <string name="spjz">Level Calibration</string>
+    <string name="study_mode">Learning Mode</string>
+    <string name="sure">Confirm</string>
+    <string name="tlq">Group</string>
+    <string name="totalmile">Total Mileage</string>
+    <string name="travel">Keep cycling for</string>
+    <string name="typekingsong">Kingsong</string>
+    <string name="unknownbleaddr">Unknown Bluetooth device address</string>
+    <string name="unknownblename">Unknown Bluetooth device</string>
+    <string name="updata">Update</string>
+    <string name="voiceoff">Voice Off</string>
+    <string name="voiceon">Voice On</string>
+    <string name="voltage">voltage</string>
+    <string name="wtfk">Feedback problems</string>
+    <string name="xgn">Introduction to New Functions</string>
+    <string name="xsjm">Speed Limit Decoding</string>
+    <string name="xssz">Speed Limit Setup</string>
+    <string name="yykz">Voice Control</string>
+    <string name="zxdh">Enquiry Hotline</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">kingsong</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="speed_xssz">Setting for Speed Limited:</string>
+    <string name="t0">"UIButton
+drakeet:alpha_pressed=\"40\"
+drakeet:color_pressed=\"#0303ff\"
+drakeet:color_unpressed=\"#8aacee\""</string>
+    <string name="t1">"UIButton
+drakeet:radius=\"6dp\""</string>
+    <string name="t2">"UIButton
+drakeet:shape_type=\"round\""</string>
+    <string name="t3">"UIImageView
+drakeet:shape_type=\"round\""</string>
+    <string name="t4">UIRippleButton drakeet:ripple_color=\"#8a87ee\" drakeet:ripple_duration=\"500\" drakeet:shape_type=\"rectangle\" drakeet:color_unpressed=\"#f44336\"</string>
+    <string name="t5">UIRippleButton drakeet:ripple_color=\"#eeeeee\" drakeet:ripple_duration=\"500\" drakeet:shape_type=\"round\" drakeet:color_unpressed=\"#f44336\"</string>
+</resources>

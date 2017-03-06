@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:background="@mipmap/find_bg" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:src="@mipmap/find_radar" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/find_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:src="@mipmap/find_radar_scan" android:layout_centerHorizontal="true" />
+        <Button android:textSize="@dimen/menu_txt_size_medium" android:textColor="@color/detail_color" android:id="@id/findbtn" android:background="@mipmap/find_link_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/find_bt" android:layout_below="@id/find_guide" android:layout_centerHorizontal="true" android:onClick="onClick" />
+        <TextView android:textSize="@dimen/menu_txt_size_medium" android:textColor="@color/detail_color" android:id="@id/findtip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="30.0dip" android:text="@string/connecting" android:layout_below="@id/find_guide" />
+        <ListView android:id="@id/list" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="5.0dip" android:layout_below="@id/findtip" />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

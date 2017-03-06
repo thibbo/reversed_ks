@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@id/main_content" android:background="@mipmap/submenu_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/setting_header" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/setting_spjz" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/setting_xssz" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/setting_xsjm" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/setting_gjsj" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/setting_dgkz" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/setting_cdkz" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/setting_qxsz" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/setting_yykz" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/setting_jbxx" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/setting_dcxx" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/setting_zxdh" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/setting_tlq" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/setting_xgn" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/setting_fwgw" />
+</android.support.design.widget.CoordinatorLayout>

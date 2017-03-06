@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@mipmap/menu_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/menu_btnleft" android:background="@drawable/btnleft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:onClick="onClick" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/menu_devicesetting" />
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/menu_deviceinfo" />
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/menu_deviceserver" />
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/menu_deviceabout" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

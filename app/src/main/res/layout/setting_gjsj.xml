@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_submenugjsj" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="60.0dip" android:layout_marginRight="10.0dip">
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="@dimen/submenu_txt_size_medium" android:textColor="@color/detail_color" android:id="@id/updatediscover" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/currentsoftversion" android:layout_weight="1.0" />
+            <Button android:textSize="@dimen/submenu_txt_size_medium" android:textColor="@color/detail_color" android:id="@id/update" android:background="@drawable/submenuspjz" android:layout_width="120.0dip" android:layout_height="40.0dip" android:text="@string/updata" android:onClick="onClick" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="@dimen/submenu_txt_size_medium" android:textColor="@color/detail_color" android:id="@id/hardwareversion" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/newsoftversion" android:layout_weight="1.0" />
+            <Button android:textSize="@dimen/submenu_txt_size_medium" android:textColor="@color/detail_color" android:id="@id/download" android:background="@drawable/submenuspjz" android:layout_width="120.0dip" android:layout_height="40.0dip" android:text="@string/download" android:onClick="onClick" />
+        </LinearLayout>
+        <ProgressBar android:id="@id/hwprogress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:max="100" style="?android:attr/progressBarStyleHorizontal" />
+        <TextView android:textSize="@dimen/submenu_txt_size_small" android:textColor="@color/detail_color" android:id="@id/selecttypeview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/selectunicycle" />
+        <ListView android:id="@id/selecttypelist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:divider="@null" />
+        <TextView android:textSize="@dimen/submenu_txt_size_small" android:textColor="@color/detail_color" android:id="@id/description" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:singleLine="false" />
+    </LinearLayout>
+</RelativeLayout>

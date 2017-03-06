@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_submenudgkz" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:id="@id/submenulighttable" android:background="@mipmap/submenu_light_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="60.0dip" android:layout_marginRight="30.0dip" android:stretchColumns="0">
+        <TableRow>
+            <SeekBar android:layout_gravity="center_vertical" android:id="@id/submenuseekbarlight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="2" android:progress="1" android:progressDrawable="@drawable/dgkz_bar_bg" android:thumb="@drawable/thumb_light" android:thumbOffset="18.0dip" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="70.0dip" android:layout_marginTop="100.0dip" android:layout_marginRight="70.0dip" android:stretchColumns="1">
+        <TableRow>
+            <TextView android:textSize="@dimen/submenu_txt_size_large" android:textColor="@color/detail_color" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ON " />
+            <TextView android:textSize="@dimen/submenu_txt_size_large" android:textColor="@color/detail_color" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AUTO" />
+            <TextView android:textSize="@dimen/submenu_txt_size_large" android:textColor="@color/detail_color" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="OFF" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout android:id="@id/submenulighttable2" android:background="@mipmap/submenu_light_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginTop="180.0dip" android:layout_marginRight="60.0dip" android:stretchColumns="0">
+        <TableRow>
+            <SeekBar android:layout_gravity="center_vertical" android:id="@id/submenuseekbarlight2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="1" android:progress="0" android:progressDrawable="@drawable/dgkz_bar_bg" android:thumb="@drawable/thumb_light" android:thumbOffset="18.0dip" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="70.0dip" android:layout_marginTop="220.0dip" android:layout_marginRight="70.0dip" android:stretchColumns="0,1">
+        <TableRow>
+            <TextView android:textSize="@dimen/submenu_txt_size_large" android:textColor="@color/detail_color" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lightnormal" />
+            <TextView android:textSize="@dimen/submenu_txt_size_large" android:textColor="@color/detail_color" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lightflash" />
+        </TableRow>
+    </TableLayout>
+    <TextView android:textSize="@dimen/submenu_txt_size_small" android:textColor="@color/detail_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="320.0dip" android:layout_marginRight="30.0dip" android:text="@string/help_light" />
+</RelativeLayout>

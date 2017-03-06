@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@mipmap/home_background" android:paddingTop="@dimen/activity_vertical_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchColumns="1">
+        <TableRow>
+            <ImageView android:layout_gravity="center_vertical" android:padding="@dimen/detail_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/home_logo" />
+            <TextView android:textSize="@dimen/detail_txt_size_small" android:textColor="@color/detail_color" android:layout_gravity="center" android:id="@id/vehico_name" android:background="@mipmap/home_current_user" android:padding="@dimen/detail_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="center_vertical" android:padding="@dimen/detail_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/home_logo2" />
+        </TableRow>
+    </TableLayout>
+    <TextView android:textSize="@dimen/menu_txt_size_medium" android:textColor="@color/detail_color" android:id="@id/maintip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:text="@string/connecting" android:layout_centerHorizontal="true" />
+    <include android:id="@id/center_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/speed_dial" />
+    <Button android:id="@id/home_bee" android:background="@mipmap/home_sound" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="-30.0dip" android:layout_below="@id/center_layout" android:layout_centerHorizontal="true" android:onClick="onClick" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/detail_color" android:id="@id/home_coolstatus" android:padding="@dimen/detail_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coolon" android:layout_toLeftOf="@id/home_bee" android:layout_below="@id/center_layout" />
+    <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchColumns="1" android:layout_below="@id/home_bee">
+        <TableRow>
+            <ImageView android:layout_gravity="bottom" android:padding="@dimen/detail_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/home_temperature" />
+            <TextView android:textSize="@dimen/home_txt_size_small" android:textStyle="bold" android:textColor="@color/detail_color" android:layout_gravity="bottom" android:id="@id/home_temp" android:padding="@dimen/detail_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="25℃" />
+            <TextView android:textSize="@dimen/home_txt_size_small" android:textStyle="bold|italic" android:textColor="@color/home_color" android:layout_gravity="bottom" android:padding="@dimen/detail_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/travel" />
+            <TextView android:textSize="@dimen/home_txt_size_large" android:textStyle="bold" android:textColor="@color/detail_color" android:layout_gravity="bottom" android:id="@id/home_canrun" android:padding="@dimen/detail_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" />
+            <TextView android:textSize="@dimen/home_txt_size_small" android:textStyle="bold" android:textColor="@color/home_color" android:layout_gravity="bottom" android:padding="@dimen/detail_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="km" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

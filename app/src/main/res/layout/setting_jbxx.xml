@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_submenujbxx" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="100.0dip" android:layout_marginRight="0.0dip" android:shrinkColumns="0,1">
+        <TableRow>
+            <TextView android:textSize="@dimen/submenu_txt_size_medium" android:textColor="@color/detail_color" android:gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/set_sn" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/submenu_txt_size_medium" android:textColor="@color/detail_color" android:gravity="left" android:id="@id/submenujbxxsn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:text="KS12yuieuwo78jjd" android:layout_weight="3.0" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textSize="@dimen/submenu_txt_size_medium" android:textColor="@color/detail_color" android:gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/set_gjbb" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/submenu_txt_size_medium" android:textColor="@color/detail_color" android:gravity="left" android:id="@id/submenujbxxgjbb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:text="V1.09" android:layout_weight="3.0" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textSize="@dimen/submenu_txt_size_medium" android:textColor="@color/detail_color" android:gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/set_qxms" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/submenu_txt_size_medium" android:textColor="@color/detail_color" android:gravity="left" android:id="@id/submenujbxxqxms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:text="0" android:layout_weight="3.0" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textSize="@dimen/submenu_txt_size_medium" android:textColor="@color/detail_color" android:gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/set_wd" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/submenu_txt_size_medium" android:textColor="@color/detail_color" android:gravity="left" android:id="@id/submenujbxxwd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:text="0" android:layout_weight="3.0" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/menu_txt_size_medium" android:textColor="@color/detail_color" android:gravity="center_vertical" android:background="@mipmap/menu_title" android:paddingLeft="@dimen/menu_marginleft" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/menudeviceabout" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/xgn" android:background="@drawable/menu_itembg" android:paddingLeft="@dimen/menu_marginleft" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/menu_icon_15" />
+        <TextView android:textSize="@dimen/menu_txt_size_small" android:textColor="@color/detail_color" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/xgn" />
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@mipmap/menu_line" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bbjc" android:background="@drawable/menu_itembg" android:paddingLeft="@dimen/menu_marginleft" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/menu_icon_16" />
+        <TextView android:textSize="@dimen/menu_txt_size_small" android:textColor="@color/detail_color" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bbjc" />
+    </LinearLayout>
+    <ImageView android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@mipmap/menu_line" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fwgw" android:background="@drawable/menu_itembg" android:paddingLeft="@dimen/menu_marginleft" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/menu_icon_17" />
+        <TextView android:textSize="@dimen/menu_txt_size_small" android:textColor="@color/detail_color" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fwgw" />
+    </LinearLayout>
+</LinearLayout>

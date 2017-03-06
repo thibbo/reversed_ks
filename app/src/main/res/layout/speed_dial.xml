@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/home_btnright" android:background="@drawable/btnright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:onClick="onClick" />
+    <Button android:id="@id/home_btnleft" android:background="@drawable/btnleft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:onClick="onClick" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/home_gauge_bg" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/speed_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/home_pointer" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/home_txt_size_large" android:textStyle="bold" android:textColor="@color/detail_color" android:id="@id/home_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="115.0dip" android:text="00" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/home_txt_size_medium" android:textStyle="bold|italic" android:textColor="@color/detail_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="170.0dip" android:text="km/h" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/home_txt_size_small" android:textStyle="bold|italic" android:textColor="@color/detail_color" android:id="@id/home_battery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="205.0dip" android:text="0%" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/battery_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="210.0dip" android:src="@mipmap/home_battery_10" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/menu_txt_size_medium" android:textColor="@color/detail_color" android:gravity="center_vertical" android:background="@mipmap/menu_title" android:paddingLeft="@dimen/menu_marginleft" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/menudeviceinfo" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/jbxx" android:background="@drawable/menu_itembg" android:paddingLeft="@dimen/menu_marginleft" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/menu_icon_08" />
+        <TextView android:textSize="@dimen/menu_txt_size_small" android:textColor="@color/detail_color" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/jbxx" />
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@mipmap/menu_line" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/dcxx" android:background="@drawable/menu_itembg" android:paddingLeft="@dimen/menu_marginleft" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/menu_icon_09" />
+        <TextView android:textSize="@dimen/menu_txt_size_small" android:textColor="@color/detail_color" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dcxx" />
+    </LinearLayout>
+</LinearLayout>

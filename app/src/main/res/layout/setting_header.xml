@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/menu_txt_size_medium" android:textColor="@color/detail_color" android:gravity="center" android:id="@id/submenutitle" android:background="@mipmap/submenu_header" android:paddingLeft="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/menudevicesetting" />
+    <Button android:id="@id/back" android:background="@mipmap/submenu_triangle" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_centerVertical="true" android:onClick="onClick" />
+</RelativeLayout>
